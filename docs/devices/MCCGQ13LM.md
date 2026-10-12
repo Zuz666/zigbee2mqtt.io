@@ -24,14 +24,20 @@ pageClass: device-page
 
 
 <!-- Notes BEGIN: You can edit here. Add "## Notes" headline if not already present. -->
-## Pairing
+## Notes
+
+### Pairing
 
 Press and hold the reset button on the device for +- 5 seconds (until the blue light starts blinking). After this the device will automatically join.
 If this doesn't work, after starting the pairing process with the long press, keep short pressing the button approximately once a second until the interview process is finished.
 
-## Battery
+### Battery
 
 Uses a CR123A battery
+
+### Button
+
+A short press of the button publishes a `single` action and wakes up the sensor (which is required before changing the `detection_distance`).
 <!-- Notes END: Do not edit below this line -->
 
 
